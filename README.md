@@ -1,63 +1,35 @@
-===========================================
-🖹 Bulk File Renamer v1.0
-===========================================
+# 🧾 Bulk File Renamer
 
-🛠 Description:
-Bulk File Renamer is a simple, easy-to-use desktop tool that helps you rename multiple files at once with custom prefixes, suffixes, replacements, and optional numbering — all in just a few clicks!
+A powerful, simple, and user-friendly desktop application for **batch renaming files** in a selected folder.  
+Built with **Python** and **PyQt5**, this tool supports custom prefixes, suffixes, text replacement, and optional numbering.
 
-Perfect for students, content creators, sellers, and anyone tired of renaming files one by one.
+---
 
--------------------------------------------
-📦 What's Included in This Download:
--------------------------------------------
-1. BulkFileRenamer.exe         → The main app
-2. Start Bulk File Renamer.lnk → (Optional) Shortcut
-3. README.txt                  → This file
+## 🚀 Features
 
--------------------------------------------
-🖥 How to Use:
--------------------------------------------
-1. Double-click on `BulkFileRenamer.exe` or use the shortcut.
-2. Select the folder containing the files you want to rename.
-3. (Optional) Enter:
-   - A **prefix** (e.g. "Invoice_")
-   - A **suffix** (e.g. "_2025")
-   - Text to **replace** (e.g. "copy" → "final")
-   - Toggle **Add numbering** if you want filenames like 001_file.txt
-4. Click **Rename Files**
-5. Check the log box to see what was renamed!
+✅ Rename all files in a folder in one click  
+✅ Add custom **prefix** and **suffix** to filenames  
+✅ Replace specific text in filenames (e.g. "draft" → "final")  
+✅ Enable **auto-numbering** (e.g. `001_`, `002_`, etc.)  
+✅ Live log output of renamed files  
+✅ Clean, responsive GUI built with PyQt5
 
-✅ All file extensions are preserved.
+---
 
--------------------------------------------
-📌 Notes:
--------------------------------------------
-- This app only renames regular files (not folders).
-- Be careful: renaming is instant and cannot be undone in this version.
-- Files are renamed in the order returned by your system.
+## 🖼️ Screenshots
 
--------------------------------------------
-💡 Coming Soon in Pro Version:
--------------------------------------------
-✓ File preview before renaming  
-✓ Undo last rename  
-✓ Filter by file type (.jpg, .pdf, etc.)  
-✓ Uniform rename mode (e.g. Product_001.jpg)  
-✓ Rename history & presets  
-✓ Dark mode
+*(Add screenshots or a GIF demo here if available)*
 
-Stay tuned for updates!
+---
 
--------------------------------------------
-📧 Support & Feedback:
--------------------------------------------
-Have questions, feature requests, or bug reports?
+## 💻 Installation
 
-📬 Email: ovezmuradov1208@gmail.com
+### 🐍 Prerequisites
 
--------------------------------------------
-📜 License:
--------------------------------------------
-This tool is for personal and commercial use. Redistribution is not allowed.
+- Python 3.8+
+- PyQt5
 
-Copyright © 2025 Kerim Ovezmyradov. All rights reserved.
+### 🔧 Install dependencies
+
+```bash
+pip install pyqt5
