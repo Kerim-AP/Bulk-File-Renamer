@@ -16,11 +16,6 @@ Built with **Python** and **PyQt5**, this tool supports custom prefixes, suffixe
 
 ---
 
-## 🖼️ Screenshots
-
-*(Add screenshots or a GIF demo here if available)*
-
----
 
 ## 💻 Installation
 
